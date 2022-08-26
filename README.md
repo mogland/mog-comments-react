@@ -3,6 +3,9 @@
 >
 > A comment section component built to use the React Frontend Framework.
 
+<img align="center" width="836" alt="image" src="https://user-images.githubusercontent.com/62133302/186838369-4e1df1fc-76f2-4224-bfba-dc96f159c5fd.png">
+
+
 ## Usage
 
 ```bash
@@ -10,16 +13,26 @@
 pnpm i @nx-space/nx-comments-react
 ```
 
-> Note: 此组件不包含请求部分，你需要传入一个 apiClient 使其工作
+> **Note**  
+>
+> 此组件不包含请求部分，你需要传入一个 apiClient 使其工作
 
 ```ts
+// import
 import { Comments } from '@nx-space/nx-comments-react';
-const App: React.FC = () => {
-  return (
-    <Comments type="Post" path="hello-world" id={'123'} apiClient={apiClient} />
-  );
-}
+// enjoy it!
+<Comments type="Post" path="hello-world" id={'123'} apiClient={apiClient} />
 ```
+
+## Features
+
+- [X] GitHub 风格
+- [X] 原生黑暗模式支持
+- [X] 自定义请求器
+- [X] 子评论嵌套支持
+- [X] TypeScript 自动补全支持
+- [ ] 表情选择器
+- [ ] Markdown 支持
 
 ## License
 
