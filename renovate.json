@@ -1,4 +1,5 @@
 {
+  "label": "dependencies",
   "extends": [
     "config:base",
     ":automergePatch",

@@ -59,6 +59,9 @@
     "@innei-util/prettier": "0.8.2",
     "@innei/eslint-config-ts": "0.9.4",
     "@types/node": "18.0.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.8",
     "bumpp": "8.2.1",
     "eslint": "8.22.0",
     "esno": "0.16.3",
@@ -71,5 +74,13 @@
     "unbuild": "0.8.9",
     "vite": "3.0.9",
     "vitest": "0.22.1"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-message-popup": "1.0.0-alpha.2",
+    "react-use": "^17.4.0"
   }
 }

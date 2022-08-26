@@ -3,6 +3,24 @@
 >
 > A comment section component built to use the React Frontend Framework.
 
+## Usage
+
+```bash
+# in bash
+pnpm i @nx-space/nx-comments-react
+```
+
+> Note: 此组件不包含请求部分，你需要传入一个 apiClient 使其工作
+
+```ts
+import { Comments } from '@nx-space/nx-comments-react';
+const App: React.FC = () => {
+  return (
+    <Comments type="Post" path="hello-world" id={'123'} apiClient={apiClient} />
+  );
+}
+```
+
 ## License
 
 此项目 AGPLv3 授权开源，使用此项目进行的二次创作或者衍生项目也必须开源。
