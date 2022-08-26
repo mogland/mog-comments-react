@@ -5,9 +5,9 @@ specifiers:
   '@innei-util/prettier': 0.8.2
   '@innei/eslint-config-ts': 0.9.4
   '@types/node': 18.0.0
-  '@types/react': ^18.0.17
-  '@types/react-dom': ^18.0.6
-  autoprefixer: ^10.4.8
+  '@types/react': 18.0.17
+  '@types/react-dom': 18.0.6
+  autoprefixer: 10.4.8
   bumpp: 8.2.1
   clsx: ^1.2.1
   eslint: 8.22.0
