@@ -1,6 +1,6 @@
 {
   "name": "@nx-space/nx-comments-react",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "为使用 React 的前端打造的评论区组件",
   "author": "wibus <wibus@qq.com>",
   "license": "AGPLv3",
