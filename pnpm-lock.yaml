@@ -7,7 +7,7 @@ specifiers:
   '@types/node': 18.0.0
   '@types/react': 18.0.19
   '@types/react-dom': 18.0.6
-  autoprefixer: 10.4.8
+  autoprefixer: 10.4.9
   bumpp: 8.2.1
   clsx: ^1.2.1
   eslint: 8.23.0
@@ -42,7 +42,7 @@ devDependencies:
   '@types/node': 18.0.0
   '@types/react': 18.0.19
   '@types/react-dom': 18.0.6
-  autoprefixer: 10.4.8_postcss@8.4.16
+  autoprefixer: 10.4.9_postcss@8.4.16
   bumpp: 8.2.1
   eslint: 8.23.0
   esno: 0.16.3
@@ -1012,15 +1012,15 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /autoprefixer/10.4.8_postcss@8.4.16:
-    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
+  /autoprefixer/10.4.9_postcss@8.4.16:
+    resolution: {integrity: sha512-Uu67eduPEmOeA0vyJby5ghu1AAELCCNSsLAjK+lz6kYzNM5sqnBO36MqfsjhPjQF/BaJM5U/UuFYyl7PavY/wQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001382
+      caniuse-lite: 1.0.30001397
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1051,7 +1051,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001382
+      caniuse-lite: 1.0.30001397
       electron-to-chromium: 1.4.228
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
@@ -1100,8 +1100,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001382:
-    resolution: {integrity: sha512-2rtJwDmSZ716Pxm1wCtbPvHtbDWAreTPxXbkc5RkKglow3Ig/4GNGazDI9/BVnXbG/wnv6r3B5FEbkfg9OcTGg==}
+  /caniuse-lite/1.0.30001397:
+    resolution: {integrity: sha512-SW9N2TbCdLf0eiNDRrrQXx2sOkaakNZbCjgNpPyMJJbiOrU5QzMIrXOVMRM1myBXTD5iTkdrtU/EguCrBocHlA==}
     dev: true
 
   /chai/4.3.6:
