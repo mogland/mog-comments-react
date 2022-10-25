@@ -5,7 +5,7 @@ specifiers:
   '@innei-util/prettier': 0.8.2
   '@innei/eslint-config-ts': 0.9.5
   '@types/node': 18.11.5
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   autoprefixer: 10.4.12
   bumpp: 8.2.1
@@ -40,7 +40,7 @@ devDependencies:
   '@innei-util/prettier': 0.8.2
   '@innei/eslint-config-ts': 0.9.5_typescript@4.8.4
   '@types/node': 18.11.5
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   autoprefixer: 10.4.12_postcss@8.4.16
   bumpp: 8.2.1
@@ -616,11 +616,11 @@ packages:
   /@types/react-dom/18.0.7:
     resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
     dev: true
 
-  /@types/react/18.0.22:
-    resolution: {integrity: sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==}
+  /@types/react/18.0.23:
+    resolution: {integrity: sha512-R1wTULtCiJkudAN2DJGoYYySbGtOdzZyUWAACYinKdiQC8auxso4kLDUhQ7AJ2kh3F6A6z4v69U6tNY39hihVQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
